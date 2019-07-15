@@ -13,16 +13,17 @@ final class ___VARIABLE_moduleName___RouterTests: XCTestCase {
 
     var router: ___VARIABLE_moduleName___Router!
     
-    var view: ___VARIABLE_moduleName___ViewController!
+    var viewController: ___VARIABLE_moduleName___ViewController!
 
     override func setUp() {
         super.setUp()
 
-        view = ___VARIABLE_moduleName___ViewController()
-        view.presenter = ___VARIABLE_moduleName___ViewOutputMock()
+        viewController = ___VARIABLE_moduleName___ViewController()
+        viewController.presenter = ___VARIABLE_moduleName___ViewOutputMock()
 
         router = ___VARIABLE_moduleName___Router()
-        router.view = view
+        router.view = viewController
+        _ = viewController.view
     }
 
 }
