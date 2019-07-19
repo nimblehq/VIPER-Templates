@@ -16,8 +16,6 @@ final class ___VARIABLE_moduleName___Presenter {
 
     var output: ___VARIABLE_moduleName___Output?
 
-    private let viewModel: ___VARIABLE_moduleName___ViewModelProtocol = ___VARIABLE_moduleName___ViewModel()
-
 }
 
 extension ___VARIABLE_moduleName___Presenter: ___VARIABLE_moduleName___ViewOutput {

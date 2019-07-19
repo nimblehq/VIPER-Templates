@@ -13,6 +13,4 @@ protocol ___VARIABLE_moduleName___ViewInput: AnyObject {
 
     func configure()
 
-    func apply(_ viewModel: ___VARIABLE_moduleName___ViewModelProtocol) 
-
 }
