@@ -14,7 +14,7 @@ final class ___VARIABLE_moduleName___Interactor {
     
 }
 
-// MARK: - ___VARIABLE_moduleName___Input
+// MARK: - ___VARIABLE_moduleName___InteractorInput
 
 extension ___VARIABLE_moduleName___Interactor: ___VARIABLE_moduleName___InteractorInput {
 
