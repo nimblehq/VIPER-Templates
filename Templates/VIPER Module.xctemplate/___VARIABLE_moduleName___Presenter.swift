@@ -29,3 +29,7 @@ extension ___VARIABLE_moduleName___Presenter: ___VARIABLE_moduleName___ViewOutpu
 extension ___VARIABLE_moduleName___Presenter: ___VARIABLE_moduleName___InteractorOutput { 
 
 }
+
+extension ___VARIABLE_moduleName___Presenter: ___VARIABLE_moduleName___Input { 
+    
+}

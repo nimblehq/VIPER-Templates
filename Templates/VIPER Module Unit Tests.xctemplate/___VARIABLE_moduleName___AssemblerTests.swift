@@ -31,6 +31,7 @@ final class ___VARIABLE_moduleName___AssemblerTests: XCTestCase {
         XCTAssertTrue(presenter.router is ___VARIABLE_moduleName___Router)
         XCTAssertTrue(presenter.interactor is ___VARIABLE_moduleName___Interactor)
         XCTAssertTrue(presenter.output === output)
+        XCTAssertTrue(presenter === assembler.input)
 
         let interactor = assembler.interactor
         XCTAssertTrue(interactor.presenter is ___VARIABLE_moduleName___Presenter)
