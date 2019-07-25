@@ -20,6 +20,10 @@ final class ___VARIABLE_moduleName___Assembler {
         set { presenter.output = newValue }
     }
 
+    var input: ___VARIABLE_moduleName___Input? { 
+        return presenter
+    }
+
     init() { 
         self.view = ___VARIABLE_moduleName___ViewController()
         self.presenter = ___VARIABLE_moduleName___Presenter()

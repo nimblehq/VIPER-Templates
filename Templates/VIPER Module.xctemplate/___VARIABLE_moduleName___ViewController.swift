@@ -24,9 +24,5 @@ extension ___VARIABLE_moduleName___ViewController: ___VARIABLE_moduleName___View
     func configure() { 
         
     }
-    
-    func apply(_ viewModel: ___VARIABLE_moduleName___ViewModelProtocol) { 
-        
-    }
 
 }
