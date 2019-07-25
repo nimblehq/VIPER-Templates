@@ -9,6 +9,8 @@
 import Foundation
 
 ___VARIABLE_sourceryAnnotationForProtocols___
-protocol ___VARIABLE_moduleName___InteractorOutput: class {
+protocol ___VARIABLE_moduleName___ViewInput: AnyObject {
+
+    func configure()
 
 }

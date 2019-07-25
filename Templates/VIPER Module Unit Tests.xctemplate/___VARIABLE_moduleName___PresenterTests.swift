@@ -9,7 +9,8 @@
 import XCTest
 @testable import ___PROJECTNAME___
 
-class ___VARIABLE_moduleName___PresenterTests: XCTestCase {
+final class ___VARIABLE_moduleName___PresenterTests: XCTestCase {
+
     var presenter: ___VARIABLE_moduleName___Presenter!
 
     var router: ___VARIABLE_moduleName___RouterInputMock!
@@ -18,13 +19,20 @@ class ___VARIABLE_moduleName___PresenterTests: XCTestCase {
 
     override func setUp() {
         super.setUp()
+
         router = ___VARIABLE_moduleName___RouterInputMock()
         interactor = ___VARIABLE_moduleName___InteractorInputMock()
         view = ___VARIABLE_moduleName___ViewInputMock()
-
         presenter = ___VARIABLE_moduleName___Presenter()
+
         presenter.router = router
         presenter.interactor = interactor
         presenter.view = view
     }
+
+    func testViewDidLoad() { 
+        presenter.viewDidLoad()
+        XCTAssertTrue(view.configureCalled)
+    }
+
 }

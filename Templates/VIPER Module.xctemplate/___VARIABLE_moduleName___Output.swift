@@ -8,6 +8,7 @@
 
 import Foundation
 
-protocol ___FILEBASENAMEASIDENTIFIER___ {
-    
+___VARIABLE_sourceryAnnotationForProtocols___
+protocol ___VARIABLE_moduleName___Output: AnyObject {
+
 }

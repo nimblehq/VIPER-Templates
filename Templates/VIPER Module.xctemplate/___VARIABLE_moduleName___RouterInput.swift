@@ -6,8 +6,9 @@
 //  ___COPYRIGHT___
 //
 
-import Foundation
+import UIKit
 
-protocol ___FILEBASENAMEASIDENTIFIER___: class {
-    
+___VARIABLE_sourceryAnnotationForProtocols___
+protocol ___VARIABLE_moduleName___RouterInput: AnyObject {
+
 }

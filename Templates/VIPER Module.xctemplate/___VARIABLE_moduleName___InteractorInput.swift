@@ -9,6 +9,6 @@
 import Foundation
 
 ___VARIABLE_sourceryAnnotationForProtocols___
-protocol ___VARIABLE_moduleName___RouterInput {
+protocol ___VARIABLE_moduleName___InteractorInput: AnyObject {
 
 }

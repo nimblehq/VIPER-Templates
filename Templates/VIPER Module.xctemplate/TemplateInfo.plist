@@ -2,14 +2,12 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>Summary</key>
+	<key>DefaultCompletionName</key>
+	<string>MyModule</string>
+	<key>Description</key>
 	<string>This generates a new VIPER module.</string>
-	<key>SortOrder</key>
-	<string>7</string>
-	<key>Platforms</key>
-	<array>
-		<string>com.apple.platform.iphoneos</string>
-	</array>
+	<key>Kind</key>
+	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
 	<key>Options</key>
 	<array>
 		<dict>
@@ -27,6 +25,8 @@
 			<string>text</string>
 		</dict>
 		<dict>
+			<key>Default</key>
+			<string>// sourcery: AutoMockable</string>
 			<key>Description</key>
 			<string>Sourcery Annotation for protocols</string>
 			<key>Identifier</key>
@@ -39,15 +39,15 @@
 			<false/>
 			<key>Type</key>
 			<string>text</string>
-			<key>Default</key>
-			<string>//sourcery: AutoMockable</string>
 		</dict>
 	</array>
-	<key>Kind</key>
-	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
-	<key>Description</key>
+	<key>Platforms</key>
+	<array>
+		<string>com.apple.platform.iphoneos</string>
+	</array>
+	<key>SortOrder</key>
+	<string>0</string>
+	<key>Summary</key>
 	<string>This generates a new VIPER module.</string>
-	<key>DefaultCompletionName</key>
-	<string>File</string>
 </dict>
 </plist>

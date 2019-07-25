@@ -9,6 +9,8 @@
 import Foundation
 
 ___VARIABLE_sourceryAnnotationForProtocols___
-protocol ___VARIABLE_moduleName___ViewOutput {
+protocol ___VARIABLE_moduleName___ViewOutput: AnyObject {
 
+    func viewDidLoad()
+    
 }
