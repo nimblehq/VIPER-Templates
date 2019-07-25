@@ -24,7 +24,7 @@ final class ___VARIABLE_moduleName___ModuleTests: XCTestCase {
 
     func test___VARIABLE_moduleName___IsCorrect() {
         let view = module.view
-        XCTAssertTrue(view.presenter is ___VARIABLE_moduleName___Presenter)
+        XCTAssertTrue(view.output is ___VARIABLE_moduleName___Presenter)
 
         let presenter = module.presenter
         XCTAssertTrue(presenter.view is ___VARIABLE_moduleName___ViewController)
@@ -34,7 +34,7 @@ final class ___VARIABLE_moduleName___ModuleTests: XCTestCase {
         XCTAssertTrue(presenter === module.input)
 
         let interactor = module.interactor
-        XCTAssertTrue(interactor.presenter is ___VARIABLE_moduleName___Presenter)
+        XCTAssertTrue(interactor.output is ___VARIABLE_moduleName___Presenter)
 
         let router = module.router
         XCTAssertTrue(router.view is ___VARIABLE_moduleName___ViewController)

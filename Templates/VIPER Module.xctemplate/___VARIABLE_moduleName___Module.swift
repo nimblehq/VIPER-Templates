@@ -30,14 +30,14 @@ final class ___VARIABLE_moduleName___Module {
         self.router = ___VARIABLE_moduleName___Router()
         self.interactor = ___VARIABLE_moduleName___Interactor()
 
-        view.presenter = presenter
+        view.output = presenter
         
         presenter.view = view
         presenter.router = router 
         presenter.interactor = interactor
         presenter.output = output
 
-        interactor.presenter = presenter
+        interactor.output = presenter
 
         router.view = view
     }

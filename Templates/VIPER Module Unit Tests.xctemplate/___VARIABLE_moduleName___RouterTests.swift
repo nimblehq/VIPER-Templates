@@ -19,7 +19,7 @@ final class ___VARIABLE_moduleName___RouterTests: XCTestCase {
         super.setUp()
 
         viewController = ___VARIABLE_moduleName___ViewController()
-        viewController.presenter = ___VARIABLE_moduleName___ViewOutputMock()
+        viewController.output = ___VARIABLE_moduleName___ViewOutputMock()
 
         router = ___VARIABLE_moduleName___Router()
         router.view = viewController

@@ -13,14 +13,14 @@ final class ___VARIABLE_moduleName___InteractorTests: XCTestCase {
 
     var interactor: ___VARIABLE_moduleName___Interactor!
     
-    var presenter: ___VARIABLE_moduleName___InteractorOutputMock!
+    var output: ___VARIABLE_moduleName___InteractorOutputMock!
 
     override func setUp() {
         super.setUp()
 
-        presenter = ___VARIABLE_moduleName___InteractorOutputMock()
+        output = ___VARIABLE_moduleName___InteractorOutputMock()
 
         interactor = ___VARIABLE_moduleName___Interactor()
-        interactor.presenter = presenter
+        interactor.output = output
     }
 }

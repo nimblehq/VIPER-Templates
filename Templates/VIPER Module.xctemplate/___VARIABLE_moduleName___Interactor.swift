@@ -10,7 +10,7 @@ import Foundation
 
 final class ___VARIABLE_moduleName___Interactor {
 
-    weak var presenter: ___VARIABLE_moduleName___InteractorOutput?
+    weak var output: ___VARIABLE_moduleName___InteractorOutput?
     
 }
 

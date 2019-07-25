@@ -10,11 +10,11 @@ import UIKit
 
 final class ___VARIABLE_moduleName___ViewController: UIViewController {
     
-    var presenter: ___VARIABLE_moduleName___ViewOutput?
+    var output: ___VARIABLE_moduleName___ViewOutput?
 
     override func viewDidLoad() { 
         super.viewDidLoad()
-        presenter?.viewDidLoad()
+        output?.viewDidLoad()
     }
 
 }

@@ -13,19 +13,19 @@ final class ___VARIABLE_moduleName___ViewControllerTests: XCTestCase {
 
     var viewController: ___VARIABLE_moduleName___ViewController!
     
-    var presenter: ___VARIABLE_moduleName___ViewOutputMock!
+    var output: ___VARIABLE_moduleName___ViewOutputMock!
 
     override func setUp() {
         super.setUp()
 
-        presenter = ___VARIABLE_moduleName___ViewOutputMock()
+        output = ___VARIABLE_moduleName___ViewOutputMock()
 
         viewController = ___VARIABLE_moduleName___ViewController()
-        viewController.presenter = presenter
+        viewController.output = output
     }
 
     func testViewDidLoad() { 
         viewController.viewDidLoad()
-        XCTAssertTrue(presenter.viewDidLoadCalled)
+        XCTAssertTrue(output.viewDidLoadCalled)
     }
 }
