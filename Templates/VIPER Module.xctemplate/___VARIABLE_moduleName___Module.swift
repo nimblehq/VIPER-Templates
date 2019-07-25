@@ -8,7 +8,7 @@
 
 import UIKit
 
-final class ___VARIABLE_moduleName___Assembler {
+final class ___VARIABLE_moduleName___Module {
     
     let view: ___VARIABLE_moduleName___ViewController
     let presenter: ___VARIABLE_moduleName___Presenter

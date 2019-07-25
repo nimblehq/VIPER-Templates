@@ -9,34 +9,34 @@
 import XCTest
 @testable import ___PROJECTNAME___
 
-final class ___VARIABLE_moduleName___AssemblerTests: XCTestCase {
+final class ___VARIABLE_moduleName___ModuleTests: XCTestCase {
 
     var output: ___VARIABLE_moduleName___Output!
-    var assembler: ___VARIABLE_moduleName___Assembler!
+    var module: ___VARIABLE_moduleName___Module!
 
     override func setUp() {
         super.setUp()
 
         output = ___VARIABLE_moduleName___OutputMock()
-        assembler = ___VARIABLE_moduleName___Assembler()
-        assembler.output = output
+        module = ___VARIABLE_moduleName___Module()
+        module.output = output
     }
 
     func test___VARIABLE_moduleName___IsCorrect() {
-        let view = assembler.view
+        let view = module.view
         XCTAssertTrue(view.presenter is ___VARIABLE_moduleName___Presenter)
 
-        let presenter = assembler.presenter
+        let presenter = module.presenter
         XCTAssertTrue(presenter.view is ___VARIABLE_moduleName___ViewController)
         XCTAssertTrue(presenter.router is ___VARIABLE_moduleName___Router)
         XCTAssertTrue(presenter.interactor is ___VARIABLE_moduleName___Interactor)
         XCTAssertTrue(presenter.output === output)
-        XCTAssertTrue(presenter === assembler.input)
+        XCTAssertTrue(presenter === module.input)
 
-        let interactor = assembler.interactor
+        let interactor = module.interactor
         XCTAssertTrue(interactor.presenter is ___VARIABLE_moduleName___Presenter)
 
-        let router = assembler.router
+        let router = module.router
         XCTAssertTrue(router.view is ___VARIABLE_moduleName___ViewController)
     }
 }
