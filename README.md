@@ -36,3 +36,12 @@ $ ./install.sh
 - __Module__RouterTests.swift
 - __Module__ViewControllerTests.swift
 ```
+
+### VIPER Module Spec Template
+```
+- __Module__ModuleSpec.swift
+- __Module__InteractorSpec.swift
+- __Module__PresenterSpec.swift
+- __Module__RouterSpec.swift
+- __Module__ViewControllerSpec.swift
+```
