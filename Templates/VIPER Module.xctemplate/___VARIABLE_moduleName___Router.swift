@@ -18,6 +18,8 @@ final class ___VARIABLE_moduleName___Router {
 
 }
 
+// MARK: - ___VARIABLE_moduleName___RouterInput
+
 extension ___VARIABLE_moduleName___Router: ___VARIABLE_moduleName___RouterInput {
 
 }
