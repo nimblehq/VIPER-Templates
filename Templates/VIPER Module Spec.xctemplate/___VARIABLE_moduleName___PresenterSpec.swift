@@ -20,7 +20,8 @@ final class ___VARIABLE_moduleName___PresenterTests: QuickSpec {
         var router: ___VARIABLE_moduleName___RouterInputMock!
         var interactor: ___VARIABLE_moduleName___InteractorInputMock!
         var view: ___VARIABLE_moduleName___ViewInputMock!
-        
+        var output: ___VARIABLE_moduleName___OutputMock!
+
         describe("a ___VARIABLE_moduleName___ presenter") { 
 
             beforeEach { 
@@ -28,6 +29,8 @@ final class ___VARIABLE_moduleName___PresenterTests: QuickSpec {
                 interactor = ___VARIABLE_moduleName___InteractorInputMock()
                 view = ___VARIABLE_moduleName___ViewInputMock()
                 presenter = ___VARIABLE_moduleName___Presenter()
+                output = ___VARIABLE_moduleName___OutputMock()
+                presenter.output = output
 
                 presenter.router = router
                 presenter.interactor = interactor
