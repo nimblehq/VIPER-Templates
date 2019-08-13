@@ -8,6 +8,16 @@
 
 import UIKit
 
+___VARIABLE_sourceryAnnotationForProtocols___
+protocol ___VARIABLE_moduleName___Input: AnyObject {
+
+}
+
+___VARIABLE_sourceryAnnotationForProtocols___
+protocol ___VARIABLE_moduleName___Output: AnyObject {
+
+}
+
 final class ___VARIABLE_moduleName___Module {
     
     let view: ___VARIABLE_moduleName___ViewController

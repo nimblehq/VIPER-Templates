@@ -19,7 +19,6 @@ final class ___VARIABLE_moduleName___Presenter {
 }
 
 // MARK: - ___VARIABLE_moduleName___ViewOutput
-
 extension ___VARIABLE_moduleName___Presenter: ___VARIABLE_moduleName___ViewOutput {
 
     func viewDidLoad() { 
@@ -29,13 +28,11 @@ extension ___VARIABLE_moduleName___Presenter: ___VARIABLE_moduleName___ViewOutpu
 }
 
 // MARK: - ___VARIABLE_moduleName___InteractorOutput
-
 extension ___VARIABLE_moduleName___Presenter: ___VARIABLE_moduleName___InteractorOutput { 
 
 }
 
 // MARK: - ___VARIABLE_moduleName___Input
-
 extension ___VARIABLE_moduleName___Presenter: ___VARIABLE_moduleName___Input { 
     
 }
