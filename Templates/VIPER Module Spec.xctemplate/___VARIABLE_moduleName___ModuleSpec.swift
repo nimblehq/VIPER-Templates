@@ -14,49 +14,45 @@ import XCTest
 
 final class ___VARIABLE_moduleName___ModuleTests: QuickSpec {
 
-    override func spec() { 
+    override func spec() {
 
         var output: ___VARIABLE_moduleName___Output!
         var module: ___VARIABLE_moduleName___Module!
 
-        describe("a ___VARIABLE_moduleName___ module") { 
+        describe("a ___VARIABLE_moduleName___ module") {
 
-            context("when initialize module") { 
+            context("when initialize module") {
 
-                beforeEach { 
+                beforeEach {
                     output = ___VARIABLE_moduleName___OutputMock()
                     module = ___VARIABLE_moduleName___Module()
                     module.output = output
                 }
 
-                it("sets view output with presenter") { 
+                it("sets view output with presenter") {
                     let view = module.view
                     expect(view.output).to(beAKindOf(___VARIABLE_moduleName___Presenter.self))
                 }
 
-                it("sets presenter's view, router, interactor, input, output") { 
+                it("sets presenter's view, router, interactor, input, output") {
                     let presenter = module.presenter
                     expect(presenter.view).to(beAKindOf(___VARIABLE_moduleName___ViewController.self))
                     expect(presenter.router).to(beAKindOf(___VARIABLE_moduleName___Router.self))
                     expect(presenter.interactor).to(beAKindOf(___VARIABLE_moduleName___Interactor.self))
                     expect(presenter.output) === output
-                    expect(presenter) === module.input       
+                    expect(presenter) === module.input
                 }
 
-                it("sets interactor output with presenter") { 
-                    let interactor = module.interactor 
+                it("sets interactor output with presenter") {
+                    let interactor = module.interactor
                     expect(interactor.output).to(beAKindOf(___VARIABLE_moduleName___Presenter.self))
                 }
 
-                it("sets router's view") { 
+                it("sets router's view") {
                     let router = module.router
                     expect(router.view).to(beAKindOf(___VARIABLE_moduleName___ViewController.self))
                 }
-                
             }
-
         }
-
     }
-
 }

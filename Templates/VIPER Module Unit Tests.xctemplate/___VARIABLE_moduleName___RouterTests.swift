@@ -12,7 +12,7 @@ import XCTest
 final class ___VARIABLE_moduleName___RouterTests: XCTestCase {
 
     var router: ___VARIABLE_moduleName___Router!
-    
+
     var viewController: ___VARIABLE_moduleName___ViewController!
 
     override func setUp() {
@@ -25,5 +25,4 @@ final class ___VARIABLE_moduleName___RouterTests: XCTestCase {
         router.view = viewController
         _ = viewController.view
     }
-
 }

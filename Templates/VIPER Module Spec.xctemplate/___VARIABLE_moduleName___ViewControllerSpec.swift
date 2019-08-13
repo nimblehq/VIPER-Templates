@@ -14,34 +14,30 @@ import XCTest
 
 final class ___VARIABLE_moduleName___ViewControllerTests: QuickSpec {
 
-    override func spec() { 
+    override func spec() {
 
         var viewController: ___VARIABLE_moduleName___ViewController!
         var output: ___VARIABLE_moduleName___ViewOutputMock!
 
-        describe("a ___VARIABLE_moduleName___ view controller ") { 
+        describe("a ___VARIABLE_moduleName___ view controller ") {
 
-            beforeEach { 
+            beforeEach {
                 output = ___VARIABLE_moduleName___ViewOutputMock()
 
                 viewController = ___VARIABLE_moduleName___ViewController()
                 viewController.output = output
             }
 
-            context("when viewDidLoad() is called") { 
+            context("when viewDidLoad() is called") {
 
-                beforeEach { 
+                beforeEach {
                     viewController.viewDidLoad()
                 }
 
-                it("calls presenter viewDidLoad()") { 
+                it("calls presenter viewDidLoad()") {
                     expect(output.viewDidLoadCalled) == true
                 }
-
             }
-            
         }
-
     }
-
 }

@@ -14,7 +14,7 @@ import XCTest
 
 final class ___VARIABLE_moduleName___PresenterTests: QuickSpec {
 
-    override func spec() { 
+    override func spec() {
 
         var presenter: ___VARIABLE_moduleName___Presenter!
         var router: ___VARIABLE_moduleName___RouterInputMock!
@@ -22,9 +22,9 @@ final class ___VARIABLE_moduleName___PresenterTests: QuickSpec {
         var view: ___VARIABLE_moduleName___ViewInputMock!
         var output: ___VARIABLE_moduleName___OutputMock!
 
-        describe("a ___VARIABLE_moduleName___ presenter") { 
+        describe("a ___VARIABLE_moduleName___ presenter") {
 
-            beforeEach { 
+            beforeEach {
                 router = ___VARIABLE_moduleName___RouterInputMock()
                 interactor = ___VARIABLE_moduleName___InteractorInputMock()
                 view = ___VARIABLE_moduleName___ViewInputMock()
@@ -36,21 +36,17 @@ final class ___VARIABLE_moduleName___PresenterTests: QuickSpec {
                 presenter.interactor = interactor
                 presenter.view = view
             }
-            
+
             context("when viewDidLoad is called") {
 
-                beforeEach { 
+                beforeEach {
                     presenter.viewDidLoad()
                 }
-                
-                it("calls view to configure view") { 
+
+                it("calls view to configure view") {
                     expect(view.configureCalled) == true
                 }
-
             }
-
         }
-
     }
-
 }
