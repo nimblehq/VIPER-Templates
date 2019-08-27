@@ -2,7 +2,7 @@
 
 ## Installation 
 ```
-$ ./install.sh
+$ git clone https://github.com/nimblehq/VIPER-Templates.git && VIPER-Templates/install.sh
 ```
 
 ## Templates Structure
