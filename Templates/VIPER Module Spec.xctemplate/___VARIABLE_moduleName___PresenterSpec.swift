@@ -12,7 +12,7 @@ import XCTest
 
 @testable import ___PROJECTNAME___
 
-final class ___VARIABLE_moduleName___PresenterTests: QuickSpec {
+final class ___VARIABLE_moduleName___PresenterSpec: QuickSpec {
 
     override func spec() { 
 

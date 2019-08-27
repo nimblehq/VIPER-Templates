@@ -12,7 +12,7 @@ import XCTest
 
 @testable import ___PROJECTNAME___
 
-final class ___VARIABLE_moduleName___RouterTests: QuickSpec {
+final class ___VARIABLE_moduleName___RouterSpec: QuickSpec {
 
     override func spec() { 
 
