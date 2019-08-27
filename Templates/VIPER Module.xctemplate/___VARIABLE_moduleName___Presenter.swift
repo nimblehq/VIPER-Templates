@@ -20,7 +20,6 @@ final class ___VARIABLE_moduleName___Presenter {
 extension ___VARIABLE_moduleName___Presenter: ___VARIABLE_moduleName___ViewOutput {
 
     func viewDidLoad() {
-        view?.configure()
     }
 }
 

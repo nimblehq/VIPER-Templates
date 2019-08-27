@@ -35,6 +35,5 @@ final class ___VARIABLE_moduleName___PresenterTests: XCTestCase {
 
     func testViewDidLoad() {
         presenter.viewDidLoad()
-        XCTAssertTrue(view.configureCalled)
     }
 }

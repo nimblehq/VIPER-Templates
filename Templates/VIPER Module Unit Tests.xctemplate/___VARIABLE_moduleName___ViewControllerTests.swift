@@ -24,7 +24,7 @@ final class ___VARIABLE_moduleName___ViewControllerTests: XCTestCase {
         viewController.output = output
     }
 
-    func testViewDidLoad() { 
+    func testViewDidLoad() {
         viewController.viewDidLoad()
         XCTAssertTrue(output.viewDidLoadCalled)
     }
