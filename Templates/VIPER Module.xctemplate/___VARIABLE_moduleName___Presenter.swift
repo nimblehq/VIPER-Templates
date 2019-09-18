@@ -14,7 +14,7 @@ final class ___VARIABLE_moduleName___Presenter {
     var router: ___VARIABLE_moduleName___RouterInput?
     var interactor: ___VARIABLE_moduleName___InteractorInput?
 
-    var output: ___VARIABLE_moduleName___Output?
+    weak var output: ___VARIABLE_moduleName___Output?
 
 }
 
