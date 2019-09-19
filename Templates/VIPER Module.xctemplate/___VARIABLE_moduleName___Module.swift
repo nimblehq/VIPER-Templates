@@ -20,7 +20,7 @@ final class ___VARIABLE_moduleName___Module {
         set { presenter.output = newValue }
     }
 
-    var input: ___VARIABLE_moduleName___Input? { 
+    var input: ___VARIABLE_moduleName___Input { 
         return presenter
     }
 
