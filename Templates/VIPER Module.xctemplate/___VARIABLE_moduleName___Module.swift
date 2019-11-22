@@ -6,8 +6,6 @@
 //  ___COPYRIGHT___
 //
 
-import UIKit
-
 ___VARIABLE_sourceryAnnotationForProtocols___
 protocol ___VARIABLE_moduleName___Input: AnyObject {
 }
