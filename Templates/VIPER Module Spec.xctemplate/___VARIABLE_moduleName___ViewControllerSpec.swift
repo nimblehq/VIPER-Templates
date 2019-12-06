@@ -11,7 +11,7 @@ import Nimble
 
 @testable import ___PROJECTNAME___
 
-final class ___VARIABLE_moduleName___ViewControllerTests: QuickSpec {
+final class ___VARIABLE_moduleName___ViewControllerSpec: QuickSpec {
 
     override func spec() {
 
