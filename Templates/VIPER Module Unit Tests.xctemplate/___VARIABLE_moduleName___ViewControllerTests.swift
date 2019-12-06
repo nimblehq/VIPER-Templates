@@ -11,9 +11,9 @@ import XCTest
 
 final class ___VARIABLE_moduleName___ViewControllerTests: XCTestCase {
 
-    var viewController: ___VARIABLE_moduleName___ViewController!
+    private var viewController: ___VARIABLE_moduleName___ViewController!
     
-    var output: ___VARIABLE_moduleName___ViewOutputMock!
+    private var output: ___VARIABLE_moduleName___ViewOutputMock!
 
     override func setUp() {
         super.setUp()
