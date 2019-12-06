@@ -8,7 +8,6 @@
 
 import Quick
 import Nimble
-import XCTest
 
 @testable import ___PROJECTNAME___
 
