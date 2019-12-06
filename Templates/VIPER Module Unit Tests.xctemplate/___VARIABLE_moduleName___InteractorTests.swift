@@ -11,9 +11,9 @@ import XCTest
 
 final class ___VARIABLE_moduleName___InteractorTests: XCTestCase {
 
-    var interactor: ___VARIABLE_moduleName___Interactor!
+    private var interactor: ___VARIABLE_moduleName___Interactor!
     
-    var output: ___VARIABLE_moduleName___InteractorOutputMock!
+    private var output: ___VARIABLE_moduleName___InteractorOutputMock!
 
     override func setUp() {
         super.setUp()
