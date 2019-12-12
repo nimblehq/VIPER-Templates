@@ -15,8 +15,8 @@ final class ___VARIABLE_moduleName___RouterSpec: QuickSpec {
 
     override func spec() { 
 
-        var router: ___VARIABLE_moduleName___Router!
-        var viewController: ___VARIABLE_moduleName___ViewController!
+        private var router: ___VARIABLE_moduleName___Router!
+        private var viewController: ___VARIABLE_moduleName___ViewController!
 
         describe("a ___VARIABLE_moduleName___ router") { 
 

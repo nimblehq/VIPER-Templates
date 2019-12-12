@@ -15,8 +15,8 @@ final class ___VARIABLE_moduleName___InteractorSpec: QuickSpec {
 
     override func spec() { 
 
-        var interactor: ___VARIABLE_moduleName___Interactor!
-        var output: ___VARIABLE_moduleName___InteractorOutputMock!
+        private var interactor: ___VARIABLE_moduleName___Interactor!
+        private var output: ___VARIABLE_moduleName___InteractorOutputMock!
 
         describe("a ___VARIABLE_moduleName___ interactor") { 
                     

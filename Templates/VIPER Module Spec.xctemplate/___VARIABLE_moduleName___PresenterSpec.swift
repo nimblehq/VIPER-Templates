@@ -15,11 +15,11 @@ final class ___VARIABLE_moduleName___PresenterSpec: QuickSpec {
 
     override func spec() { 
 
-        var presenter: ___VARIABLE_moduleName___Presenter!
-        var router: ___VARIABLE_moduleName___RouterInputMock!
-        var interactor: ___VARIABLE_moduleName___InteractorInputMock!
-        var view: ___VARIABLE_moduleName___ViewInputMock!
-        var output: ___VARIABLE_moduleName___OutputMock!
+        private var presenter: ___VARIABLE_moduleName___Presenter!
+        private var router: ___VARIABLE_moduleName___RouterInputMock!
+        private var interactor: ___VARIABLE_moduleName___InteractorInputMock!
+        private var view: ___VARIABLE_moduleName___ViewInputMock!
+        private var output: ___VARIABLE_moduleName___OutputMock!
 
         describe("a ___VARIABLE_moduleName___ presenter") { 
 

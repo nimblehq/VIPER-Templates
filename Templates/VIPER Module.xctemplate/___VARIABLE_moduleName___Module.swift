@@ -25,21 +25,19 @@ final class ___VARIABLE_moduleName___Module {
     }
 
     init() { 
-        self.view = ___VARIABLE_moduleName___ViewController()
-        self.presenter = ___VARIABLE_moduleName___Presenter()
-        self.router = ___VARIABLE_moduleName___Router()
-        self.interactor = ___VARIABLE_moduleName___Interactor()
+        view = ___VARIABLE_moduleName___ViewController()
+        presenter = ___VARIABLE_moduleName___Presenter()
+        router = ___VARIABLE_moduleName___Router()
+        interactor = ___VARIABLE_moduleName___Interactor()
 
         view.output = presenter
         
         presenter.view = view
         presenter.router = router 
         presenter.interactor = interactor
-        presenter.output = output
 
         interactor.output = presenter
 
         router.view = view
     }
-
 }

@@ -7,13 +7,13 @@
 //
 
 import XCTest
+
 @testable import ___PROJECTNAME___
 
 final class ___VARIABLE_moduleName___ViewControllerTests: XCTestCase {
 
-    var viewController: ___VARIABLE_moduleName___ViewController!
-    
-    var output: ___VARIABLE_moduleName___ViewOutputMock!
+    private var viewController: ___VARIABLE_moduleName___ViewController!
+    private var output: ___VARIABLE_moduleName___ViewOutputMock!
 
     override func setUp() {
         super.setUp()
