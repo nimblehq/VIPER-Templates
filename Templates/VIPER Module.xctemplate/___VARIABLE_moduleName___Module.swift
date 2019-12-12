@@ -41,7 +41,6 @@ final class ___VARIABLE_moduleName___Module {
         presenter.view = view
         presenter.router = router
         presenter.interactor = interactor
-        presenter.output = output
 
         interactor.output = presenter
 
