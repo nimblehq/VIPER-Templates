@@ -15,8 +15,8 @@ final class ___VARIABLE_moduleName___ViewControllerSpec: QuickSpec {
 
     override func spec() { 
 
-        private var viewController: ___VARIABLE_moduleName___ViewController!
-        private var output: ___VARIABLE_moduleName___ViewOutputMock!
+        var viewController: ___VARIABLE_moduleName___ViewController!
+        var output: ___VARIABLE_moduleName___ViewOutputMock!
 
         describe("a ___VARIABLE_moduleName___ view controller") { 
 

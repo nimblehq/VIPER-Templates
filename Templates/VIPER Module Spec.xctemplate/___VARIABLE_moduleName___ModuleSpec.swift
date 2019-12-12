@@ -15,8 +15,8 @@ final class ___VARIABLE_moduleName___ModuleSpec: QuickSpec {
 
     override func spec() { 
 
-        private var output: ___VARIABLE_moduleName___Output!
-        private var module: ___VARIABLE_moduleName___Module!
+        var output: ___VARIABLE_moduleName___Output!
+        var module: ___VARIABLE_moduleName___Module!
 
         describe("a ___VARIABLE_moduleName___ module") { 
 
