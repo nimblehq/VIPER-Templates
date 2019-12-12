@@ -30,7 +30,7 @@ final class ___VARIABLE_moduleName___ModuleTests: XCTestCase {
         XCTAssertTrue(presenter.view is ___VARIABLE_moduleName___ViewController)
         XCTAssertTrue(presenter.router is ___VARIABLE_moduleName___Router)
         XCTAssertTrue(presenter.interactor is ___VARIABLE_moduleName___Interactor)
-        XCTAssertTrue(presenter.output === output)
+        XCTAssertTrue(presenter.output === module.output)
         XCTAssertTrue(presenter === module.input)
 
         let interactor = module.interactor

@@ -38,7 +38,7 @@ final class ___VARIABLE_moduleName___ModuleSpec: QuickSpec {
                     expect(presenter.view).to(beAKindOf(___VARIABLE_moduleName___ViewController.self))
                     expect(presenter.router).to(beAKindOf(___VARIABLE_moduleName___Router.self))
                     expect(presenter.interactor).to(beAKindOf(___VARIABLE_moduleName___Interactor.self))
-                    expect(presenter.output) === output
+                    expect(presenter.output) === module.output
                     expect(presenter) === module.input
                 }
 
