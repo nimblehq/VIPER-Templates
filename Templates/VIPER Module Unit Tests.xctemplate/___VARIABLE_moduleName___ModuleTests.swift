@@ -7,12 +7,13 @@
 //
 
 import XCTest
+
 @testable import ___PROJECTNAME___
 
 final class ___VARIABLE_moduleName___ModuleTests: XCTestCase {
 
-    var output: ___VARIABLE_moduleName___Output!
-    var module: ___VARIABLE_moduleName___Module!
+    private var output: ___VARIABLE_moduleName___Output!
+    private var module: ___VARIABLE_moduleName___Module!
 
     override func setUp() {
         super.setUp()

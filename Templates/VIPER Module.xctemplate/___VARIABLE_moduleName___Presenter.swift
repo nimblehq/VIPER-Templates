@@ -15,7 +15,6 @@ final class ___VARIABLE_moduleName___Presenter {
     var interactor: ___VARIABLE_moduleName___InteractorInput?
 
     weak var output: ___VARIABLE_moduleName___Output?
-
 }
 
 // MARK: - ___VARIABLE_moduleName___ViewOutput
@@ -24,8 +23,7 @@ extension ___VARIABLE_moduleName___Presenter: ___VARIABLE_moduleName___ViewOutpu
 
     func viewDidLoad() { 
         view?.configure()
-    }
-    
+    }   
 }
 
 // MARK: - ___VARIABLE_moduleName___InteractorOutput

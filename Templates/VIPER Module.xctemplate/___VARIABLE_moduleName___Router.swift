@@ -15,7 +15,6 @@ final class ___VARIABLE_moduleName___Router {
     private var viewController: UIViewController? { 
         return view as? UIViewController
     }
-
 }
 
 // MARK: - ___VARIABLE_moduleName___RouterInput

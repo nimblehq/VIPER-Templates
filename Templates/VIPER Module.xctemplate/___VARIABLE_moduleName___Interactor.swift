@@ -11,7 +11,6 @@ import Foundation
 final class ___VARIABLE_moduleName___Interactor {
 
     weak var output: ___VARIABLE_moduleName___InteractorOutput?
-    
 }
 
 // MARK: - ___VARIABLE_moduleName___InteractorInput

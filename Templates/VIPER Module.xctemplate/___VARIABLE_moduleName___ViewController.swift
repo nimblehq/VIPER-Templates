@@ -16,7 +16,6 @@ final class ___VARIABLE_moduleName___ViewController: UIViewController {
         super.viewDidLoad()
         output?.viewDidLoad()
     }
-
 }
 
 // MARK: - ___VARIABLE_moduleName___ViewInput
@@ -26,5 +25,4 @@ extension ___VARIABLE_moduleName___ViewController: ___VARIABLE_moduleName___View
     func configure() { 
         
     }
-
 }
