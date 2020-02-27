@@ -13,14 +13,14 @@ import Nimble
 
 final class ___VARIABLE_moduleName___RouterSpec: QuickSpec {
 
-    override func spec() { 
+    override func spec() {
 
         var router: ___VARIABLE_moduleName___Router!
         var viewController: ___VARIABLE_moduleName___ViewController!
 
-        describe("a ___VARIABLE_moduleName___ router") { 
+        describe("a ___VARIABLE_moduleName___ router") {
 
-            beforeEach { 
+            beforeEach {
                 viewController = ___VARIABLE_moduleName___ViewController()
                 viewController.output = ___VARIABLE_moduleName___ViewOutputMock()
 
@@ -28,9 +28,6 @@ final class ___VARIABLE_moduleName___RouterSpec: QuickSpec {
                 router.view = viewController
                 _ = viewController.view
             }
-
         }
-
     }
-
 }

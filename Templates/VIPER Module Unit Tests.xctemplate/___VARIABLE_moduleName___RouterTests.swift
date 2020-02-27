@@ -25,5 +25,4 @@ final class ___VARIABLE_moduleName___RouterTests: XCTestCase {
         router.view = viewController
         _ = viewController.view
     }
-
 }
