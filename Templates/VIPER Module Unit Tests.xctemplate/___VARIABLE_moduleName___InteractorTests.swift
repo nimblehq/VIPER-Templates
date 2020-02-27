@@ -12,7 +12,7 @@ import XCTest
 final class ___VARIABLE_moduleName___InteractorTests: XCTestCase {
 
     private var interactor: ___VARIABLE_moduleName___Interactor!
-    
+
     private var output: ___VARIABLE_moduleName___InteractorOutputMock!
 
     override func setUp() {
