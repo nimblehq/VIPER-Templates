@@ -9,18 +9,18 @@
 import UIKit
 
 final class ___VARIABLE_moduleName___Module {
-    
+
     let view: ___VARIABLE_moduleName___ViewController
     let presenter: ___VARIABLE_moduleName___Presenter
     let router: ___VARIABLE_moduleName___Router
     let interactor: ___VARIABLE_moduleName___Interactor
 
-    var output: ___VARIABLE_moduleName___Output? { 
+    var output: ___VARIABLE_moduleName___Output? {
         get { return presenter.output }
         set { presenter.output = newValue }
     }
 
-    var input: ___VARIABLE_moduleName___Input { 
+    var input: ___VARIABLE_moduleName___Input {
         return presenter
     }
 
@@ -31,9 +31,9 @@ final class ___VARIABLE_moduleName___Module {
         interactor = ___VARIABLE_moduleName___Interactor()
 
         view.output = presenter
-        
+
         presenter.view = view
-        presenter.router = router 
+        presenter.router = router
         presenter.interactor = interactor
 
         interactor.output = presenter
