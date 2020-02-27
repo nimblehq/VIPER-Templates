@@ -25,7 +25,6 @@ final class ___VARIABLE_moduleName___InteractorSpec: QuickSpec {
                 interactor = ___VARIABLE_moduleName___Interactor()
                 interactor.output = output
             }
-
         }
     }
 }
