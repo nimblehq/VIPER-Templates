@@ -22,12 +22,12 @@ final class ___VARIABLE_moduleName___Module {
     let interactor: ___VARIABLE_moduleName___Interactor
 
     var output: ___VARIABLE_moduleName___Output? {
-        get { return presenter.output }
+        get { presenter.output }
         set { presenter.output = newValue }
     }
 
     var input: ___VARIABLE_moduleName___Input {
-        return presenter
+        presenter
     }
 
     init() {
