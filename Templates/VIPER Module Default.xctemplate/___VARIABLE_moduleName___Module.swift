@@ -22,7 +22,7 @@ final class ___VARIABLE_moduleName___Module {
 
     var input: ___VARIABLE_moduleName___Input { presenter }
 
-    init() { 
+    init() {
         view = ___VARIABLE_moduleName___ViewController()
         presenter = ___VARIABLE_moduleName___Presenter()
         router = ___VARIABLE_moduleName___Router()

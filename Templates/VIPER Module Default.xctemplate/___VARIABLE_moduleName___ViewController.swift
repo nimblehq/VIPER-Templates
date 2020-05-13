@@ -9,7 +9,7 @@
 import UIKit
 
 final class ___VARIABLE_moduleName___ViewController: UIViewController {
-    
+
     var output: ___VARIABLE_moduleName___ViewOutput?
 
     override func viewDidLoad() {

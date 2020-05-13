@@ -39,11 +39,11 @@ final class ___VARIABLE_moduleName___ModuleSpec: QuickSpec {
                     expect(presenter.router).to(beAKindOf(___VARIABLE_moduleName___Router.self))
                     expect(presenter.interactor).to(beAKindOf(___VARIABLE_moduleName___Interactor.self))
                     expect(presenter.output) === output
-                    expect(presenter) === module.input       
+                    expect(presenter) === module.input
                 }
 
                 it("sets interactor output with presenter") {
-                    let interactor = module.interactor 
+                    let interactor = module.interactor
                     expect(interactor.output).to(beAKindOf(___VARIABLE_moduleName___Presenter.self))
                 }
 

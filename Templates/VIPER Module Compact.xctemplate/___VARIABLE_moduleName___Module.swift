@@ -26,9 +26,7 @@ final class ___VARIABLE_moduleName___Module {
         set { presenter.output = newValue }
     }
 
-    var input: ___VARIABLE_moduleName___Input {
-        presenter
-    }
+    var input: ___VARIABLE_moduleName___Input { presenter }
 
     init() {
         view = ___VARIABLE_moduleName___ViewController()
