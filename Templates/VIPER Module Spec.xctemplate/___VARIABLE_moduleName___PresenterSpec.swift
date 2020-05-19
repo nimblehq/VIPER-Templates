@@ -35,7 +35,7 @@ final class ___VARIABLE_moduleName___PresenterSpec: QuickSpec {
                 presenter.interactor = interactor
                 presenter.view = view
             }
-            
+
             context("when viewDidLoad is called") {
 
                 beforeEach {

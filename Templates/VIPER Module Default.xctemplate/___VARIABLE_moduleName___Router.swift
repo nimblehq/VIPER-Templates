@@ -13,7 +13,7 @@ final class ___VARIABLE_moduleName___Router {
     weak var view: ___VARIABLE_moduleName___ViewInput?
 
     private var viewController: UIViewController? {
-        return view as? UIViewController
+        view as? UIViewController
     }
 }
 
