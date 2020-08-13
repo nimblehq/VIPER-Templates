@@ -20,16 +20,15 @@ final class ___VARIABLE_moduleName___PresenterTests: XCTestCase {
 
     override func setUp() {
         super.setUp()
-
         router = ___VARIABLE_moduleName___RouterInputMock()
         interactor = ___VARIABLE_moduleName___InteractorInputMock()
         view = ___VARIABLE_moduleName___ViewInputMock()
-        presenter = ___VARIABLE_moduleName___Presenter()
+        presenter = ___VARIABLE_moduleName___Presenter(
+            router: router,
+            interactor: interactor
+        )
         output = ___VARIABLE_moduleName___OutputMock()
         presenter.output = output
-
-        presenter.router = router
-        presenter.interactor = interactor
         presenter.view = view
     }
 
