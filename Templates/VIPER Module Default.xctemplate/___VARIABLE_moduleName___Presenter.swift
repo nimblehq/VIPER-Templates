@@ -10,11 +10,19 @@ import Foundation
 
 final class ___VARIABLE_moduleName___Presenter {
 
+    let router: ___VARIABLE_moduleName___RouterInput
+    let interactor: ___VARIABLE_moduleName___InteractorInput
+    
     weak var view: ___VARIABLE_moduleName___ViewInput?
-    var router: ___VARIABLE_moduleName___RouterInput?
-    var interactor: ___VARIABLE_moduleName___InteractorInput?
-
     weak var output: ___VARIABLE_moduleName___Output?
+
+    init(
+        router: ___VARIABLE_moduleName___RouterInput,
+        interactor: ___VARIABLE_moduleName___InteractorInput
+    ) {
+        self.router = router
+        self.interactor = interactor
+    }
 }
 
 // MARK: - ___VARIABLE_moduleName___ViewOutput

@@ -30,15 +30,16 @@ final class ___VARIABLE_moduleName___Module {
 
     init() {
         view = ___VARIABLE_moduleName___ViewController()
-        presenter = ___VARIABLE_moduleName___Presenter()
         router = ___VARIABLE_moduleName___Router()
         interactor = ___VARIABLE_moduleName___Interactor()
+        presenter = ___VARIABLE_moduleName___Presenter(
+            router: router,
+            interactor: interactor
+        )
 
         view.output = presenter
 
         presenter.view = view
-        presenter.router = router
-        presenter.interactor = interactor
 
         interactor.output = presenter
 
