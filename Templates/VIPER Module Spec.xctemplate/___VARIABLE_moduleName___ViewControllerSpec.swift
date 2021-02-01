@@ -27,13 +27,13 @@ final class ___VARIABLE_moduleName___ViewControllerSpec: QuickSpec {
                 viewController.output = output
             }
 
-            context("when viewDidLoad() is called") {
+            context("when viewDidLoad is called") {
 
                 beforeEach {
                     viewController.viewDidLoad()
                 }
 
-                it("calls presenter viewDidLoad()") {
+                it("calls presenter viewDidLoad") {
                     expect(output.viewDidLoadCalled) == true
                 }
             }
